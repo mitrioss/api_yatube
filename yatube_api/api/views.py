@@ -1,7 +1,8 @@
 from django.shortcuts import render
 from rest_framework import viewsets
 from posts.models import Post, Group, Comment, User
-from .serializers import PostSerializer, UserSerializer, GroupSerializer, CommentSerializer
+from .serializers import (PostSerializer, UserSerializer,
+                          GroupSerializer, CommentSerializer)
 #83e0f2f315a2e56120f44b0813876175ca21e5c7
 
 
