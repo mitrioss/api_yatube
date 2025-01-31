@@ -3,7 +3,6 @@ from rest_framework.authtoken import views
 from rest_framework.routers import SimpleRouter, DefaultRouter
 from api.views import PostViewSet, GroupViewSet, CommentViewSet
 
-#from .views import api_posts, api_posts_detail
 
 router = SimpleRouter()
 
